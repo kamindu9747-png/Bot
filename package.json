@@ -1,0 +1,24 @@
+{
+  "name": "mini-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Mini WhatsApp bot using @whiskeysockets/baileys with MongoDB session storage and a web-based pairing code generator",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "pino": "^9.3.2",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
